@@ -1,5 +1,7 @@
 # Genetic Algorithm
 
+This code replicates the experiment of evolving bitstrings using a genetic algorithm found in Melanie Mitchell's "The Royal Road for Genetic Algorithms: Fitness Landscapes and GA Performance". 
+
 ## Explaination Of Code
 
 #### Fitness and HIFF
