@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="216.0" prefWidth="202.0" style="-fx-background-color: B04759;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.runtimeTerror.scrumApp.controllers.LoginDialogController">
+   <children>
+      <VBox layoutX="26.0" layoutY="42.0" prefHeight="133.0" prefWidth="150.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="16.0" prefWidth="200.0" text="Login as Student" textAlignment="CENTER" textFill="WHITE" />
+            <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="6.0" visible="false" />
+            <TextField fx:id="usernameField" prefHeight="25.0" prefWidth="135.0" />
+            <Separator orientation="VERTICAL" prefWidth="200.0" visible="false" />
+            <Button mnemonicParsing="false" onMouseClicked="#loginAsStudent" prefHeight="25.0" prefWidth="168.0" text="Login" />
+            <Separator orientation="VERTICAL" prefHeight="21.0" prefWidth="146.0" visible="false" />
+            <Button mnemonicParsing="false" onMouseClicked="#loginAsProf" prefHeight="25.0" prefWidth="157.0" text="Login as Professor" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.runtimeTerror.scrumApp.MainScenesController">
+  <tabs>
+      <Tab text="Group">
+          <content>
+              <fx:include fx:id="groupTabPage" source="group.fxml" />
+          </content>
+      </Tab>
+      <Tab text="Backlog">
+          <content>
+              <fx:include fx:id="backlogTabPage" source="backlog.fxml" />
+          </content>
+      </Tab>
+      <Tab text="Sprint">
+          <content>
+              <fx:include fx:id="sprintTabPage" source="sprint.fxml" />
+          </content>
+      </Tab>
+      <Tab text="Archive">
+          <content>
+              <fx:include fx:id="archiveTabPage" source="archive.fxml" />
+          </content>
+      </Tab>
+  </tabs>
+</TabPane>

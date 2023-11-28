@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="192.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.runtimeTerror.scrumApp.controllers.AddStudentDialogController">
+   <children>
+      <GridPane layoutX="25.0" layoutY="40.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="152.0" minWidth="10.0" prefWidth="86.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="120.0" minWidth="10.0" prefWidth="114.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Name" />
+            <Label text="ID" GridPane.rowIndex="2" />
+            <TextField fx:id="nameField" GridPane.columnIndex="1" />
+            <TextField fx:id="idField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Button fx:id="addButton" layoutX="182.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#addNewStudent" text="Add" />
+      <Button fx:id="cancelButton" layoutX="25.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#close" text="Cancel" />
+   </children>
+</AnchorPane>

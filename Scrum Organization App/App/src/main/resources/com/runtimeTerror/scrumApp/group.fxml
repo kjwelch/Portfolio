@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: B04759;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.runtimeTerror.scrumApp.controllers.GroupController">
+    <children>
+        <TreeView fx:id="groupTree" layoutX="33.0" layoutY="20.0" prefHeight="289.0" prefWidth="535.0" />
+      <ButtonBar fx:id="buttonBar" layoutX="14.0" layoutY="325.0" prefHeight="40.0" prefWidth="555.0">
+        <buttons>
+          <Button fx:id="newGroupButton" mnemonicParsing="false" onMouseClicked="#newGroup" prefHeight="24.0" prefWidth="184.0" text="New Group" />
+            <Button fx:id="newStudentButton" mnemonicParsing="false" onMouseClicked="#newStudent" prefHeight="24.0" prefWidth="120.0" text="New Student" />
+            <Button fx:id="deleteButton" mnemonicParsing="false" onMouseClicked="#deleteSelected" text="Delete Selected" />
+            <Button fx:id="viewStudentButton" mnemonicParsing="false" onMouseClicked="#viewStudent" text="View Student" />
+        </buttons>
+      </ButtonBar>
+    </children>
+</AnchorPane>
