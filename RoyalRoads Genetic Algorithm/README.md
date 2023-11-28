@@ -46,3 +46,7 @@ Performance wise, the one and two point crossover functions performed relatively
 ## HIFF vs Fitness
 
 The HIFF function outperformed the standard fitness function by a small amount. I would imagine a hybrid would work the best as HIFF is limited by the binary representation of 00000000... having the same fitness as 11111111...
+
+## Bibliography
+
+  Mitchell, Melanie, J. H. Holland, and S. Forrest. The royal road for genetic algorithms: Fitness landscapes and GA performance. No. LA-UR-91-3391; CONF-911266-1. Los Alamos National Lab., NM (United States), 1991.
